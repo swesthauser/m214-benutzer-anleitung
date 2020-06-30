@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<!--Das ist ein HTML-Dokument-Beispiel, ohne CSS - das kommt im nächsten Kapitel-->
+
+<head>
+  <title>Page Title</title>
+  <script src="onclick.js"></script>
+</head>
+
+<body>
+
+  <div>
+    <h3>Der erste Schritt</h1>
+
+  </div>
+
+  <div>
+    <h3>Funktion onClick()</h1>
+      <p>Beim Elemente-Attribut definierst du das onClick() und rufst die Funktion mit ihrem Name auf</p>
+      <button onclick="myFunction()">Click me</button>
+
+      <h3>Funktion onClick() mit Paramter</h3>
+      <p>Du kannst auch einen Paramenter mitgeben. Einen Wert, welcher die Funktion benutzt und verarbeiten kann</p>
+      <button onclick="myFunctionWithParam('Max Muster')">Click me</button>
+  </div>
+
+  <div>
+    <h3>Wert entgegennehmen und in eine Element hinfügen</h3>
+    <p>Da wird zuerst die Input Feld definiert mit einem id und type, in diesem Fall "text".<br> Die Button soll die Type "submit" haben, weil es um Input (Form) geht.</p>
+    <p>Mit einem onClick() wird die Funktion aufgerufen.</p>
+
+    <label for="firstname">First name:</label>
+    <input type="text" id="firstname" name="firstnamename"><br><br>
+    <button type="submit" value="Submit" onclick="insert()">Senden</button>
+
+    <p>Da habe ich die Element definiert, in welche ich später die Wert hinzufügen will.</p>
+    <p id="myParagraph"></p>
+  </div>
+
+  <div>
+    <h3>If-Else Schleifen</h3>
+    <p></p>
+  </div>
+
+</body>
+
+</html>
